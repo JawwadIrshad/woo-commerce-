@@ -7,7 +7,7 @@ import os
 SOURCE_FILE = "junk16.json"
 PRODUCTS_OUTPUT_FILE = "final11.json"
 FEATURES_FOLDER = "features"
-FEATURES_BASE_URL = " "  
+FEATURES_BASE_URL = " "  #put the url in this
 
 def format_description(html_content):
     if not html_content or not isinstance(html_content, str):
@@ -115,3 +115,4 @@ if __name__ == "__main__":
     print("-----------------------------------------")
     process_products()
     print("✅ All done.")
+
